@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Header = () => {
     return (
@@ -9,6 +10,9 @@ export const Header = () => {
                     <h1 className="text-2xl font-extrabold tracking-wide text-white">
                         Skeleton Landing Page
                     </h1>
+                </div>
+                <div>
+                    <Link href="/onepage"> OnePage</Link>
                 </div>
                 <div className="text-white pr-2 cursor-pointer">
                     {" "}
